@@ -15,6 +15,7 @@
 .header-links a,
 .hero-secondary,
 .hero-image,
+.copyright div,
 header {
     color: #E5E7EB;
     text-decoration: none;
@@ -155,7 +156,7 @@ body{
     align-items: center;
     background-color: #3882F6;
     width: 800px;
-    margin: 50px auto;
+    margin: 80px auto;
     border-radius: 4px;
 }
 
@@ -176,7 +177,16 @@ body{
     font-size: large;
 }
 
-*{
-    outline: 1px solid red;
+.copyright{
+    display: flex;
+    justify-content: center;
+    padding: 25px;
+    background-color: #1F2937;
 }
+
+.copyright div{
+    padding: 0;
+}
+
+
 
